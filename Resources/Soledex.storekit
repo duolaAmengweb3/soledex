@@ -1,0 +1,5 @@
+{ "identifier":"SOLEDEX-SK","nonRenewingSubscriptions":[],
+  "products":[{"displayPrice":"14.99","familyShareable":false,"internalID":"SOLEDEXPRO01",
+    "localizations":[{"description":"Unlimited scans, unlimited closet & PDF export — one-time.","displayName":"Soledex Pro","locale":"en_US"}],
+    "productID":"com.duolaameng.soledex.pro","referenceName":"Soledex Pro","type":"NonConsumable"}],
+  "settings":{"_failTransactionsEnabled":false},"subscriptionGroups":[],"version":{"major":3,"minor":0} }
