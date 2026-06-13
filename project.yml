@@ -16,13 +16,9 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.duolaameng.soledex
         MARKETING_VERSION: "1.0"
-        CURRENT_PROJECT_VERSION: "1"
+        CURRENT_PROJECT_VERSION: "2"
         TARGETED_DEVICE_FAMILY: "1"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        INFOPLIST_KEY_UILaunchScreen_Generation: YES
-        INFOPLIST_KEY_NSCameraUsageDescription: "Soledex uses the camera to identify your sneakers and look up their value."
-        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Add photos of your sneakers from your library to identify and value them."
-        INFOPLIST_KEY_UIUserInterfaceStyleName: Light
     scheme:
       storeKitConfiguration: Resources/Soledex.storekit
     info:
@@ -30,3 +26,6 @@ targets:
       properties:
         UILaunchScreen: {}
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIUserInterfaceStyle: Light
+        NSCameraUsageDescription: "Soledex uses the camera to identify your sneakers and look up their value."
+        NSPhotoLibraryUsageDescription: "Add photos of your sneakers from your library to identify and value them."
